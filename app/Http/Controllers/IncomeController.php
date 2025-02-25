@@ -19,6 +19,7 @@ class IncomeController extends Controller
      Income::create([
          'amount' =>$validatedIncomeDetails['amount'],
          'income-category' =>$validatedIncomeDetails['income-category'],
+         //associative array
      ]);
 
      return response()->json([

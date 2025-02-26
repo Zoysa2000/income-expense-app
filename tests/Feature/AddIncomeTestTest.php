@@ -12,6 +12,7 @@ class AddIncomeTestTest extends TestCase
     //Arrange
     //dummy data we that need to do the test
      $income = Income::factory()->make()->toArray();
+     dd($income);
 
     //Act or Action
     //implement that we need to test pass (endpoint/class/function)

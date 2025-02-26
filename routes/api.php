@@ -7,3 +7,4 @@ use App\Http\Controllers\UserController;
 
 
 Route::post('add-income', [IncomeController::class, 'addIncome']);
+Route::get('get-income', [IncomeController::class, 'getIncome']);

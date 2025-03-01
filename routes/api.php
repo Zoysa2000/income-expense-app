@@ -8,3 +8,5 @@ use App\Http\Controllers\UserController;
 
 Route::post('add-income', [IncomeController::class, 'addIncome']);
 Route::get('get-income', [IncomeController::class, 'getIncome']);
+Route::post('delete-income', [IncomeController::class, 'deleteIncome']);
+Route::post('update-income', [IncomeController::class, 'updateIncome']);

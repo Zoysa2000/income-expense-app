@@ -100,10 +100,6 @@ class IncomeController extends Controller
             ], 422);
         }
 
-
-
-
-
     }
 
 }
